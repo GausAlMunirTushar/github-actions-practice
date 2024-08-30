@@ -1,4 +1,4 @@
-name: Deployment
+name: deployment
 
 on:
   push:
@@ -31,4 +31,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build
+          folder: dist  # Updated to 'dist' for Vite build output
